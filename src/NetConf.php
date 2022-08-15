@@ -3,7 +3,7 @@
 use Lamoni\NetConf\NetConfAuth\NetConfAuthAbstract;
 use Lamoni\NetConf\NetConfMessage\NetConfMessageRecv\NetConfMessageRecvHello;
 use Lamoni\NetConf\NetConfMessage\NetConfMessageRecv\NetConfMessageRecvRPC;
-use Net_SSH2;
+use phpseclib\Net\SSH2 as Net_SSH2;
 use SimpleXMLElement;
 
 /**

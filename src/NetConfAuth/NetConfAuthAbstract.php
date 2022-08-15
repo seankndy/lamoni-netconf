@@ -1,6 +1,6 @@
 <?php namespace Lamoni\NetConf\NetConfAuth;
 
-use Net_SSH2;
+use phpseclib\Net\SSH2 as Net_SSH2;
 
 /**
  * Class NetConfAuthAbstract
